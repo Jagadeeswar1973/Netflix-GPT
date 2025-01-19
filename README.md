@@ -1,5 +1,5 @@
 NetflixGpt
--Use vite for creating app(npm create vite@latest my-project --template react)
+-Use vite for creating app(npm create vite@latest my-project --template react)      
 -Configured TailwindCSS
 -Header
 -Routing of App
