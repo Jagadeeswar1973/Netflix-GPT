@@ -1,4 +1,4 @@
-## Netflix-GPT
+Netflix-GPT
 Use vite for creating app(npm create vite@latest my-project --template react)
 Configured TailwindCSS
 Header
