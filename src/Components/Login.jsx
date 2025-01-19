@@ -11,6 +11,7 @@ import { auth } from "../../utils/Firebase";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "../../utils/userSlice";
+import { BACKGROUND } from "../../utils/constants";
 
 const Login = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -66,6 +67,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
+          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -81,10 +83,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_small.jpg"
-          alt="background logo"
-        />
+        <img src={BACKGROUND} alt="background logo" />
       </div>
 
       <form
