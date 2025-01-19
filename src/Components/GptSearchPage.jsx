@@ -1,14 +1,15 @@
 import { BACKGROUND } from "../../utils/constants";
 import GptSearchBar from "./GptSearchBar";
-
+import GptMovieSuggestions from "./GptMovieSuggestions";
 const GPTSearch = () => {
   return (
     <>
       <div className="fixed -z-10">
-        <img className=" " src={BACKGROUND} alt="logo" />
+        <img src={BACKGROUND} alt="logo" />
       </div>
       <div className="">
         <GptSearchBar />
+        <GptMovieSuggestions />
       </div>
     </>
   );
