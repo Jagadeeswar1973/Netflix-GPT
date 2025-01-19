@@ -1,5 +1,5 @@
-#Netflix-GPT
-*Use vite for creating app(npm create vite@latest my-project --template react)
+NetflixGpt
+-Use vite for creating app(npm create vite@latest my-project --template react)
 -Configured TailwindCSS
 -Header
 -Routing of App
@@ -36,7 +36,7 @@
 -usePopularMovies Custom hook
 -GPT Search Page
 -GPT Search Bar
--Multi-language Feature in our App)
+-Multi-language Feature in our App
 -Get Open AI Api Key
 -Gpt Search API Call
 -fetched gptMoviesSuggestions from TMDB
@@ -60,3 +60,6 @@
 -NetflixGPT
 -Search Bar
 -Movie Suggestions
+#Deployment
+-Use "VPN" while opening the link.
+-Used Gemini Api Key.
