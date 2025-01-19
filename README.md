@@ -62,4 +62,5 @@
 -Movie Suggestions
 #Deployment
 -Use "VPN" while opening the link.
--Used Gemini Api Key.
+-Used Gemini Api Key.                                                                                                                                                                                                                                              
+LINK--https://netflixgpt-d0c45.web.app/
